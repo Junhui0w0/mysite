@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig', #polls\apps 의 config 참조
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
